@@ -12,6 +12,6 @@ public class UserDto {
     private String email;
 
     @NotNull
-    @Size(min = 6, max = 10, message = "A senha deve ter no minimo 6 e no maximo 10 caracteres")
+    @Size(min = 6, max = 10, message = "{no.password.validation}")
     private String password;
 }
