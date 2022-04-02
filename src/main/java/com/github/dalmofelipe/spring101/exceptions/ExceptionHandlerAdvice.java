@@ -1,7 +1,7 @@
-package com.github.dalmofelipe.springbootlab.exceptions;
+package com.github.dalmofelipe.spring101.exceptions;
 
-import com.github.dalmofelipe.springbootlab.exceptions.contract.MessageException;
-import com.github.dalmofelipe.springbootlab.exceptions.dto.ApiErrorDto;
+import com.github.dalmofelipe.spring101.exceptions.contract.MessageException;
+import com.github.dalmofelipe.spring101.exceptions.dto.ApiErrorDto;
 import org.apache.commons.lang3.text.StrSubstitutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

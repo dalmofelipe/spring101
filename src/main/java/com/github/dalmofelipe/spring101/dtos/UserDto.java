@@ -1,6 +1,6 @@
-package com.github.dalmofelipe.springbootlab.dtos;
+package com.github.dalmofelipe.spring101.dtos;
 
-import com.github.dalmofelipe.springbootlab.entities.UserEntity;
+import com.github.dalmofelipe.spring101.entities.UserEntity;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 
@@ -14,12 +14,12 @@ public class UserDto {
     @NotBlank
     private String name;
 
-    @NotBlank
-    @Email
+    @NotBlank(message = "{email.is.required}")
+    @Email(message = "{email.invalid}")
     private String email;
 
     @NotBlank
-    @Size(min = 6, max = 10, message = "{no.password.validation}")
+    @Size(min = 6, max = 10, message = "{password.validation}")
     private String password;
 
     public UserDto() {}

@@ -1,14 +1,10 @@
-package com.github.dalmofelipe.springbootlab.entities;
+package com.github.dalmofelipe.spring101.entities;
 
-import com.github.dalmofelipe.springbootlab.dtos.UserDto;
+import com.github.dalmofelipe.spring101.dtos.UserDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity

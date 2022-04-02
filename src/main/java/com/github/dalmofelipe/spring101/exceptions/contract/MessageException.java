@@ -1,4 +1,4 @@
-package com.github.dalmofelipe.springbootlab.exceptions.contract;
+package com.github.dalmofelipe.spring101.exceptions.contract;
 
 import java.util.Map;
 

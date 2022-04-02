@@ -1,10 +1,10 @@
-package com.github.dalmofelipe.springbootlab;
+package com.github.dalmofelipe.spring101;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootLabApplicationTests {
+class Spring101ApplicationTests {
 
 	@Test
 	void contextLoads() {

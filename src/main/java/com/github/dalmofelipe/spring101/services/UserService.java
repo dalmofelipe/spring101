@@ -1,9 +1,9 @@
-package com.github.dalmofelipe.springbootlab.services;
+package com.github.dalmofelipe.spring101.services;
 
-import com.github.dalmofelipe.springbootlab.dtos.UserDto;
-import com.github.dalmofelipe.springbootlab.entities.UserEntity;
-import com.github.dalmofelipe.springbootlab.exceptions.business.UserNotFoundException;
-import com.github.dalmofelipe.springbootlab.repositories.UserRepository;
+import com.github.dalmofelipe.spring101.dtos.UserDto;
+import com.github.dalmofelipe.spring101.entities.UserEntity;
+import com.github.dalmofelipe.spring101.exceptions.business.UserNotFoundException;
+import com.github.dalmofelipe.spring101.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import javax.validation.Valid;

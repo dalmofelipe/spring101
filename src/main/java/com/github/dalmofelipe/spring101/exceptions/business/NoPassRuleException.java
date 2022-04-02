@@ -1,6 +1,6 @@
-package com.github.dalmofelipe.springbootlab.exceptions.business;
+package com.github.dalmofelipe.spring101.exceptions.business;
 
-import com.github.dalmofelipe.springbootlab.exceptions.BaseRuntimeException;
+import com.github.dalmofelipe.spring101.exceptions.BaseRuntimeException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 

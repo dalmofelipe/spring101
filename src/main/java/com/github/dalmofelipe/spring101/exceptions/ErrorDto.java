@@ -1,4 +1,4 @@
-package com.github.dalmofelipe.springbootlab.exceptions;
+package com.github.dalmofelipe.spring101.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

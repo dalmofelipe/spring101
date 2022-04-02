@@ -1,6 +1,6 @@
-package com.github.dalmofelipe.springbootlab.exceptions;
+package com.github.dalmofelipe.spring101.exceptions;
 
-import com.github.dalmofelipe.springbootlab.exceptions.contract.MessageException;
+import com.github.dalmofelipe.spring101.exceptions.contract.MessageException;
 
 import java.util.Map;
 

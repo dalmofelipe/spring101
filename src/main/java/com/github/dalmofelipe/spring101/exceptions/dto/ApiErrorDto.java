@@ -1,6 +1,6 @@
-package com.github.dalmofelipe.springbootlab.exceptions.dto;
+package com.github.dalmofelipe.spring101.exceptions.dto;
 
-import com.github.dalmofelipe.springbootlab.exceptions.ErrorDto;
+import com.github.dalmofelipe.spring101.exceptions.ErrorDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,6 @@
-package com.github.dalmofelipe.springbootlab.repositories;
+package com.github.dalmofelipe.spring101.repositories;
 
-import com.github.dalmofelipe.springbootlab.entities.UserEntity;
+import com.github.dalmofelipe.spring101.entities.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

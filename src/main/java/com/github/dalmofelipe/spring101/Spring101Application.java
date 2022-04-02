@@ -1,12 +1,13 @@
-package com.github.dalmofelipe.springbootlab;
+package com.github.dalmofelipe.spring101;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootLabApplication {
+public class Spring101Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootLabApplication.class, args);
+		SpringApplication.run(Spring101Application.class, args);
 	}
+
 }
