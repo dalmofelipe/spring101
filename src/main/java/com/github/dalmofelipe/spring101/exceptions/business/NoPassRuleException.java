@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class NoPassRuleException extends BaseRuntimeException {
 
-    private static final String KEY = "no.password.validation";
+    private static final String KEY = "password.validation";
 
     public NoPassRuleException() {
         super();
