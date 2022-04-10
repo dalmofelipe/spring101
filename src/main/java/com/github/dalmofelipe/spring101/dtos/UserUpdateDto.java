@@ -1,15 +1,18 @@
 package com.github.dalmofelipe.spring101.dtos;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.github.dalmofelipe.spring101.entities.UserEntity;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.Column;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+import java.time.LocalDate;
 
 @Data
-public class UserDto {
+public class UserUpdateDto {
 
     @NotBlank(message = "{name.not.blank.validation}")
     private String name;
@@ -18,11 +21,11 @@ public class UserDto {
     @Email(message = "{email.invalid}")
     private String email;
 
-    @NotBlank
-    @Size(min = 6, max = 10, message = "{password.validation}")
-    private String password;
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @JsonProperty(value = "birth_date")
+    private LocalDate birthDate;
 
-    public UserDto() {}
+    public UserUpdateDto() {}
 
     public UserEntity toEntity() {
         UserEntity userEntity = new UserEntity();
