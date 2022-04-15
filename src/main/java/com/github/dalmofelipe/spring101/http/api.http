@@ -1,11 +1,11 @@
 ###
-POST http://localhost:8083/users/8 HTTP/1.1
+POST http://localhost:8083/users HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Ana",
-  "email": "ana@email.com",
-  "password": "123123"
+  "name": "felip",
+  "email": "felipe@email.com",
+  "password": "123456"
 }
 
 ###
@@ -15,15 +15,26 @@ GET http://localhost:8083/users HTTP/1.1
 GET http://localhost:8083/users/2 HTTP/1.1
 
 ###
-PUT http://localhost:8083/users/8 HTTP/1.1
+PUT http://localhost:8083/users/2 HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Ana",
-  "email": "ana@email.com",
+  "name": "Felipe",
+  "email": "felipe@email.com",
   "password": "123123",
   "birth_date": "1989-01-05"
 }
 
 ###
 DELETE http://localhost:8083/users/2 HTTP/1.1
+
+###
+PUT http://localhost:8083/users/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Dalmo",
+  "email": "dalmo@email.com",
+  "password": "321312",
+  "birth_date": "1989-01-05"
+}
