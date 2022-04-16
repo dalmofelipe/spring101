@@ -2,7 +2,7 @@
 GET http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,timezone,isp,org,as,query HTTP/1.1
 
 ###
-GET http://localhost:8083/local-time HTTP/1.1
+GET http://localhost:8083/local-weather/city/6879 HTTP/1.1
 
 ###
 POST http://localhost:8083/users HTTP/1.1

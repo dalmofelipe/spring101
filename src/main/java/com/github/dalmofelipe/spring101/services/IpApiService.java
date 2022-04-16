@@ -29,6 +29,7 @@ public class IpApiService {
 	public Mono<IpApiDto> getIpLocation() {
 		return this.webClient.get()
 			.uri("?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,timezone,isp,org,as,query")
+			.accept(MediaType.APPLICATION_JSON)
 			.retrieve().bodyToMono(IpApiDto.class);
 	}
 }
