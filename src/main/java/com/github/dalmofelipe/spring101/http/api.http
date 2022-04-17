@@ -1,4 +1,19 @@
 ###
+PUT http://apiadvisor.climatempo.com.br/api-manager/user-token/:token/locales HTTP/1.1
+Content-Type: application/json
+
+{
+  "localeId": [6535, 6879]
+}
+
+# {"error":true,"detail":"Your plan allows 1 cities"}
+# {"error":true,"detail":"Your free plan only allows to update cities after 24 hours from the last update (2022-04-15 20:52:54 America/Sao_Paulo -03:00)"}
+
+###
+
+
+
+###
 GET http://ip-api.com/json/?fields=status,message,country,countryCode,region,regionName,city,zip,lat,lon,timezone,isp,org,as,query HTTP/1.1
 
 ###

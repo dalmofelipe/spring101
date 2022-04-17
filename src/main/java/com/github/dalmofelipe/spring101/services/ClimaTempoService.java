@@ -21,12 +21,12 @@ import reactor.core.publisher.Mono;
 @Service
 public class ClimaTempoService {
 
-	private String baseUrl = "http://apiadvisor.climatempo.com.br/api/v1";
+	private final String baseUrl = "http://apiadvisor.climatempo.com.br/api/v1";
 	
 	@Value("${app.api.climatempo.token}")
 	private String token;
 
-	private WebClient webClient;
+	private final WebClient webClient;
 
 	public ClimaTempoService() {
 		this.webClient = WebClient.builder()

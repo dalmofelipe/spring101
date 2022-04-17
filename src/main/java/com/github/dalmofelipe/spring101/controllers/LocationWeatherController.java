@@ -36,6 +36,7 @@ public class LocationWeatherController {
 		String UF = local.getRegion();
 		String ip = local.getQuery();
 		Integer idCity = this.getCityID(cityName, UF);
+
 		
 		return null;
 	}
