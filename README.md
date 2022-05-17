@@ -36,6 +36,7 @@ app.api.climatempo.token=ENC(CHAVE-CRIPTOGRAFADA-MUITO-SEGURA)
 
 ###  Add Senha para Jasypt VMOptions 
 
+```xml
 <plugin>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-maven-plugin</artifactId>
@@ -45,7 +46,7 @@ app.api.climatempo.token=ENC(CHAVE-CRIPTOGRAFADA-MUITO-SEGURA)
         </jvmArguments>
     </configuration>
 </plugin>
-
+```
 
 informar em VM Options ```-Djasypt.encryptor.password=xxxxxx```
 
