@@ -1,15 +1,17 @@
 package com.github.dalmofelipe.spring101.dtos;
 
+import java.time.LocalDate;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.github.dalmofelipe.spring101.entities.UserEntity;
-import lombok.Data;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Column;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import java.time.LocalDate;
+import lombok.Data;
 
 @Data
 public class UserUpdateDto {

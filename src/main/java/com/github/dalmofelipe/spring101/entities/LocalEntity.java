@@ -14,9 +14,9 @@ import org.springframework.format.annotation.DateTimeFormat.ISO;
 import lombok.Data;
 
 @Entity
-@Table(name = "tb_local_weather")
+@Table(name = "tb_locals")
 @Data
-public class LocalWeatherEntity {
+public class LocalEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
